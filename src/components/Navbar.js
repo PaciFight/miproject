@@ -47,7 +47,7 @@ const Navbar = () => {
   <li 
     onClick={() => {
       localStorage.clear();
-      localStorage.setItem("value", 4);
+      localStorage.setItem("value", 3);
     }}
   >
     TV
