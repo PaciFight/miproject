@@ -72,7 +72,7 @@ const NavOptions = ( {miPhones,redmiPhones,tv,laptop,fitnessAndLifeStyle,home,au
            )) : null }
      
 
-            {tvToggle ?   tv.map((item)=>(
+            {tvToggle ?  tv.map((item)=>(
 
                 < NavCard name={item.name} price={item.price} image={item.image} key={item.image} />
            )) : null }
