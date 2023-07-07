@@ -14,9 +14,13 @@ import Videos from "./components/Videos.js"
 import Banner from "./components/Banner.js"
 import Footer from "./components/Footer.js"
 import NavOptions from "./components/NavOptions.js"
-
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    localStorage.clear();
+  }, []);
+
 
   return (
   <Router>
@@ -69,7 +73,9 @@ function App() {
        <Footer footer={data.footer} />
    </Router>
 
+  
   );
+
 }
 
 export default App;
