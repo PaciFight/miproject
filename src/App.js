@@ -13,8 +13,7 @@ import ProductReviews from "./components/ProductReviews.js"
 import Videos from "./components/Videos.js"
 import Banner from "./components/Banner.js"
 import Footer from "./components/Footer.js"
-import NavOptios from "./components/NavOptios.js"
-
+import NavOptions from "./components/NavOptions.js"
 
 
 function App() {
@@ -24,7 +23,7 @@ function App() {
        <PreNavbar/>
        <Navbar />
             
-        <NavOptios miPhones={data.miPhones} redmiPhones={data.redmiPhones} tv={data.tv} laptop={data.laptop} fitnessAndLifeStyle={data.fitnessAndLifeStyle} home={data.home} audio={data.audio}  accessories={data.accessories}/>
+        <NavOptions miPhones={data.miPhones} redmiPhones={data.redmiPhones} tv={data.tv} laptop={data.laptop} fitnessAndLifeStyle={data.fitnessAndLifeStyle} home={data.home} audio={data.audio}  accessories={data.accessories}/>
 
 
        <Slider start={data.banner.start} />
